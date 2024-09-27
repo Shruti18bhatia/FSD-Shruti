@@ -1,4 +1,19 @@
 body
 {
     background-color: rgb(137, 255, 237);
+    align-items: center;
+}
+table 
+{
+    background-color: rgb(191, 130, 247);
+    border-radius: 12px;
+    border-color: black;
+    border-style: groove;
+    border-width: 6px;
+    align-self: center;
+}
+h1{
+    background-color: rgb(255, 237, 163);
+    text-align: center;
+
 }
