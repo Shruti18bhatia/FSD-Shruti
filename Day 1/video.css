@@ -2,5 +2,10 @@
     text-align: center;
     background-color: aquamarine;
     color: black;
-    
+    font-size: large;
+}
+table
+{
+    width: 120px;
+    background-color: black;
 }
