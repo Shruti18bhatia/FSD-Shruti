@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(146, 241, 209);
+}
+div~p{
+    background-color: rgb(215, 79, 79);
+}
+.fitems{
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    background-color: rgb(87, 87, 255);
+    color: azure;
+    font-size: 30px;
+    border-radius: 10px;
+    border-color: red;
+    border-style:groove ;
+    border-width: 5px;
+    align-content:space-around;
+}
+.fcontainer{
+    display: flex;
+    
+    justify-content: center;
+}
+.fitems.item1{
+    background-color: black;
+    order: 2;
+}
+.fitems.item2{
+    border-color: black;
+    order: -1;
+    
+}
