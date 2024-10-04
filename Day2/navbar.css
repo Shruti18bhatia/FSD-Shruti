@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#mydiv{
+    display: flex;
+    flex-direction: column;
+}
+#header{
+    background-color: white;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1.5px solid grey;
+    padding: 0 25px; /* Adjusted padding for left-right spacing */
+    height: 70px;
+}
+#header .logo{
+    font-size: larger;
+}
+#header .menu{
+    display: flex;
+    gap: 20px;
+}
+.nav-items{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+}
+a{
+   text-decoration: none;
+}
+.Sign-up, .Log-in{
+    padding: 12px 20px;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #3940A0 0%, #3CA3C1 100%);
+    color: #FFFFFF;
+    border: 1px solid grey;
+}
+#maincontent{
+
+}
+#footer{
+
+}
+div>ul{
+    display: flex;
+}
+.navright{
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}

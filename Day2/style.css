@@ -19,15 +19,15 @@ div~p{
 }
 .fcontainer{
     display: flex;
-    
     justify-content: center;
 }
 .fitems.item1{
     background-color: black;
     order: 2;
+    width: 250px;
 }
 .fitems.item2{
     border-color: black;
     order: -1;
-    
+    width: 250px;
 }
