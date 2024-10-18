@@ -17,4 +17,4 @@ const totalScore = students
     .map(student => student.score * 2)
     .filter(score => score > 60)
     .reduce((total, score) => total + score, 0); 
-console.log(totalScore);
+console.log(totalScore);a
