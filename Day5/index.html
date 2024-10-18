@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <!-- <button onclick="display()">Click Here</button>
+        <p>hyyyyyyyyyy</p>
+        <p>hiiiiiiiii</p>
+        <p>huuuuuuuuuu</p>
+        <script>
+            let p1 = document.querySelectorAll('p')
+            let display=()=>{
+                for (let index = 0; index < p1.length; index++) {
+                    // const element = array[index];
+                    p1[index].innerHTML="updated";
+                    p1[index].style.backgroundColor="cyan";
+                    
+                }
+            }
+            
+        </script> -->
+        <a href="https://abes.ac.in">ABES Website</a>
+        <button onclick="display()">Change Link</button>
+        <script>
+            let p1= document.querySelector('a');
+            let display=() => {
+            p1.setAttribute('href', 'https://aktu.ac.in/');
+            p1.innerText = " AKTU Website";
+        }
+        </script>
+</body>
+</html>
