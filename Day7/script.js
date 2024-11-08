@@ -19,4 +19,4 @@ async function fetchdata() {
       console.log(error);
     }
   }
-  fetchadata();
+  fetchdata();
